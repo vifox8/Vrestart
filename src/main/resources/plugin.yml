@@ -1,0 +1,20 @@
+name: Vrestart
+main: ru.mortarcraft.vrestart.VrestartPlugin
+version: 1.0.0
+api-version: 1.21
+author: ru.mortarcraft
+commands:
+  vrestart:
+    description: Manage server restarts
+    usage: /vrestart <force|soft|cancel|reload>
+    aliases: [vr]
+    permission: vrestart.use
+  cancelrestart:
+    description: Vote to cancel soft restart
+    permission: vrestart.use
+    usage: /<command>
+permissions:
+  vrestart.use:
+    default: true
+  vrestart.admin:
+    default: op

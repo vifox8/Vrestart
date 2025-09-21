@@ -1,0 +1,27 @@
+prefix: "[VRESTART] " # Plugin prefix (Leave blank if you don't want to see it)
+config_reloaded: "Config reloaded."
+
+forced_warning: "&c⚠ Forced restart in 1 minute!"
+force_warning: "&c⚠ Forced restart!"
+
+force_started: "Forced restart scheduled in %time% seconds."
+forced_countdown: "&cRestart in &e%seconds%&c seconds."
+forced_restart: "Server is restarting now..."
+force_cancel: "&aForced restart canceled by admin!"
+
+soft_restart: "&eThis restart is for &6%player%&e! The server will restart if not canceled."
+soft_started: "Soft restart scheduled in %time% seconds (players can cancel)."
+soft_cancel_vote: "Soft restart cancelled by players!"
+soft_cancel_admin: "Soft restart cancelled by admin!"
+
+cancel_button: "&c[Cancel restart]"
+canceled: "&aRestart canceled by majority of players."
+vote_progress: "[%current%/%required%] voted to cancel the restart"
+
+reason_format: "&7Reason: &f%reason%"
+
+schedule_header: "&6📅 Restart schedule:"
+schedule_forced: "&cForced: &f%times%"
+schedule_soft: "&eSoft: &f%times%"
+
+no_permission: "&cYou do not have permission to perform this command."

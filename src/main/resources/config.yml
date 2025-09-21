@@ -1,0 +1,25 @@
+# Язык интерфейса
+# Interface language
+language: "en"
+
+# Таймеры по умолчанию для команд
+# Default Timers for Commands
+defaults:
+  force-time: 60   # сек
+  soft-time: 60    # сек
+
+# Процент игроков, необходимый для отмены soft рестарта
+# Percentage of players required to cancel a soft restart
+soft-cancel-percent: 50
+
+# Расписание принудительных рестартов (HH:mm)
+# Schedule of forced restarts (HH:mm)
+forced-restarts:
+  - "03:00"
+  - "18:00"
+
+# Расписание непринудительных рестартов (HH:mm)
+# Schedule of soft restarts (HH:mm)
+soft-restarts:
+  - "09:00"
+  - "15:10"
